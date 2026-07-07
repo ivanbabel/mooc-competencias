@@ -1,4 +1,4 @@
-var COURSE_PACKAGE_VERSION = "T2T97jkf";
+var COURSE_PACKAGE_VERSION = "TTZWV8yX";
 var RESET_LEARNER_DATA = false;
 
 function isTrue(val) {
