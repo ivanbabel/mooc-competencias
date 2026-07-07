@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       description: "Autoevaluación 2",
-      id: "0zSBuw4Bwtck-hLAXM-9DDqvNV5cQPP2",
+      id: "suihz-_zDtY102dNtc_O_BON39P_3UVI",
       message:
         "Enhorabuena, has demostrado tu aprendizaje sobre las características de las  competencias. Sigue avanzando con el curso. Ánimo.",
     },
