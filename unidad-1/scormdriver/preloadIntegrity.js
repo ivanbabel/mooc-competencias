@@ -1,4 +1,4 @@
-var COURSE_PACKAGE_VERSION = "NbDXGjLo";
+var COURSE_PACKAGE_VERSION = "y4dOFmEi";
 var RESET_LEARNER_DATA = false;
 
 function isTrue(val) {
@@ -82,5 +82,5 @@ function commitHeartbeat() {
 }
 
 function getCourseTitle() {
-  return 'Competencia Básica 1ª: Compromiso con el servicio público y la organización'
+  return '¿Qué son las competencias profesionales? Técnicas de identificación'
 }

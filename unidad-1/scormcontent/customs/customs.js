@@ -12,8 +12,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const evals = [
     {
+      description: "Autoevaluación 1",
+      id: "4uH3IECpDzp48MAOqcl4BCPZD8fLShZk",
+      message: "Enhorabuena, has demostrado tu aprendizaje sobre las primeras nociones de las  competencias.  Continúa así. Ánimo.",
+    },
+    {
       description: "Autoevaluación 2",
-      id: "5ZvvVcHPKY3VtLw7yJxdDwX0K-7vuN2M",
+      id: "suihz-_zDtY102dNtc_O_BON39P_3UVI",
       message:
         "Enhorabuena, has demostrado tu aprendizaje sobre las características de las  competencias. Sigue avanzando con el curso. Ánimo.",
     },
