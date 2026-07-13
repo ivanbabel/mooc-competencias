@@ -1,4 +1,4 @@
-var COURSE_PACKAGE_VERSION = "FsoKPP9a";
+var COURSE_PACKAGE_VERSION = "rgxJs--n";
 var RESET_LEARNER_DATA = false;
 
 function isTrue(val) {

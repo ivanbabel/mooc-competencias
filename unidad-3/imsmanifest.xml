@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<manifest identifier="mD2UO3J6sffesNHdwtY6Lnz993I6OavHNbDXGjLo" version="1"
+<manifest identifier="mD2UO3J6sffesNHdwtY6Lnz993I6OavHbsmyhl3q" version="1"
   xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
   xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -42,12 +42,12 @@
       
 
       <!-- FRONTEND BUNDLE ASSETS -->
-      <file href="scormcontent/lib/rise/5f8d5db4.js" />
+      <file href="scormcontent/lib/rise/adbc7fcc.js" />
 <file href="scormcontent/lib/rise/acb578a7.js" />
 <file href="scormcontent/lib/rise/c5f885ce.css" />
-<file href="scormcontent/lib/rise/7555aea7.js" />
-<file href="scormcontent/lib/rise/f6fe2f7b.css" />
-<file href="scormcontent/lib/rise/ea88b8fe.js" />
+<file href="scormcontent/lib/rise/a2c51a23.js" />
+<file href="scormcontent/lib/rise/6c9eff61.css" />
+<file href="scormcontent/lib/rise/0ac37ca0.js" />
 <file href="scormcontent/lib/rise/9aede266.ttf" />
 <file href="scormcontent/lib/rise/bff47411.woff" />
 <file href="scormcontent/lib/rise/53e38ae4.js" />
@@ -71,11 +71,11 @@
 <file href="scormcontent/lib/learn_dist/entry.js" />
 <file href="scormcontent/lib/learn_dist/9b1f8619.js" />
 <file href="scormcontent/lib/learn_dist/a505eb4f.css" />
-<file href="scormcontent/lib/learn_dist/77932d93.js" />
+<file href="scormcontent/lib/learn_dist/a9b6c0d9.js" />
 <file href="scormcontent/lib/mondrian/entry.js" />
-<file href="scormcontent/lib/mondrian/03334748.js" />
-<file href="scormcontent/lib/mondrian/7ce750ae.js" />
-<file href="scormcontent/lib/mondrian/1aee6fd3.js" />
+<file href="scormcontent/lib/mondrian/dec9fc60.js" />
+<file href="scormcontent/lib/mondrian/53ca4aa5.js" />
+<file href="scormcontent/lib/mondrian/98f11b92.js" />
 <file href="scormcontent/lib/mondrian/3868877e.js" />
 <file href="scormcontent/lib/mondrian/5d56aa22.js" />
 <file href="scormcontent/lib/sandbox/sandbox.html" />
@@ -265,7 +265,7 @@
 <file href="scormcontent/assets/people-coworking-office.jpg" />
 <file href="scormcontent/assets/Grafica_03_02.png" />
 <file href="scormcontent/assets/girl-having-online-class-h.jpg" />
-<file href="scormcontent/assets/NJwXhO/mountains.jpg" />
+<file href="scormcontent/assets/IoOE-6/mountains.jpg" />
 <file href="scormcontent/assets/3528.jpg" />
 <file href="scormcontent/assets/business-people-shaking-ha.jpg" />
 <file href="scormcontent/assets/RolSoporte.png.jpg" />
@@ -279,8 +279,6 @@
 <file href="scormcontent/assets/Grafica_03_03_3.png" />
 <file href="scormcontent/assets/Grafica_03_03.png" />
 <file href="scormcontent/assets/hands-joined-by-team.jpg" />
-<file href="scormcontent/assets/Nuevo_IAAP_CONCLUSIONES_UD.mp4" />
-<file href="scormcontent/assets/Nuevo_IAAP_CONCLUSIONES_UD.jpg" />
 <file href="scormcontent/assets/6857256.jpg" />
 <file href="scormcontent/assets/08%20Trophy.gif" />
 
