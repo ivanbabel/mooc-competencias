@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest
-  identifier="TvonORuUmqqbmNM8HuntjAtYnZKnjXbdJqCAe6Cw"
+  identifier="TvonORuUmqqbmNM8HuntjAtYnZKnjXbdoZAEZBum"
   version="1"
   xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
   xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
@@ -25,15 +25,7 @@
   <resources>
     <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
       
-        <file href="scormcontent/lib/learn_dist/entry.js" />
-      
-        <file href="scormcontent/lib/learn_dist/9b1f8619.js" />
-      
-        <file href="scormcontent/lib/learn_dist/a505eb4f.css" />
-      
         <file href="scormcontent/lib/mondrian/entry.js" />
-      
-        <file href="scormcontent/lib/learn_dist/a9b6c0d9.js" />
       
         <file href="scormcontent/lib/mondrian/dec9fc60.js" />
       
@@ -43,12 +35,6 @@
       
         <file href="scormcontent/lib/sandbox/4adfab46.css" />
       
-        <file href="scormcontent/lib/rise/95da918f.js" />
-      
-        <file href="scormcontent/lib/rise/acb578a7.js" />
-      
-        <file href="scormcontent/lib/rise/fd3dd74a.css" />
-      
         <file href="scormcontent/lib/mondrian/beb179ad.js" />
       
         <file href="scormcontent/lib/mondrian/2eb2e328.js" />
@@ -56,6 +42,20 @@
         <file href="scormcontent/lib/mondrian/3868877e.js" />
       
         <file href="scormcontent/lib/mondrian/5d56aa22.js" />
+      
+        <file href="scormcontent/lib/learn_dist/entry.js" />
+      
+        <file href="scormcontent/lib/learn_dist/9b1f8619.js" />
+      
+        <file href="scormcontent/lib/learn_dist/a505eb4f.css" />
+      
+        <file href="scormcontent/lib/learn_dist/a9b6c0d9.js" />
+      
+        <file href="scormcontent/lib/rise/95da918f.js" />
+      
+        <file href="scormcontent/lib/rise/acb578a7.js" />
+      
+        <file href="scormcontent/lib/rise/fd3dd74a.css" />
       
         <file href="scormcontent/lib/rise/e44cce70.js" />
       
@@ -109,121 +109,121 @@
       
         <file href="scormdriver/goodbye.html" />
       
+        <file href="scormcontent/assets/quote_background.jpg" />
+      
+        <file href="scormcontent/assets/escalera.jpg" />
+      
+        <file href="scormcontent/assets/softskills.jpg" />
+      
+        <file href="scormcontent/assets/assortment-blank-wooden-cubes.jpg" />
+      
         <file href="scormcontent/index.html" />
       
         <file href="scormdriver/lib/dist/5306ddc2.js" />
       
         <file href="scormcontent/lib/dist/c45a9871.js" />
       
-        <file href="scormcontent/assets/quote_background.jpg" />
+        <file href="scormcontent/lib/player-interface.js" />
       
-        <file href="scormdriver/AICCComm.html" />
-      
-        <file href="scormcontent/assets/Grafica_02_2_Mesa de trabajo 1.png" />
-      
-        <file href="scormcontent/assets/25_creative.jpg" />
+        <file href="scormcontent/assets/11_food.jpg" />
       
         <file href="scormdriver/scormdriver.js" />
       
-        <file href="scormdriver/blank.html" />
-      
-        <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+        <file href="scormcontent/assets/25_creative.jpg" />
       
         <file href="scormdriver/lms-interface.js" />
       
-        <file href="scormcontent/assets/softskills.jpg" />
+        <file href="scormcontent/assets/mountains.jpg" />
       
         <file href="scormdriver/browsersniff.js" />
       
-        <file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
+        <file href="scormcontent/assets/Grafica_02_2_Mesa de trabajo 1.png" />
+      
+        <file href="scormdriver/blank.html" />
+      
+        <file href="scormcontent/assets/6857256.jpg" />
+      
+        <file href="scormdriver/auto-scripts/AutoBookmark.js" />
       
         <file href="scormcontent/assets/9788434026490.jpg" />
       
+        <file href="scormcontent/assets/Grafica_02_3.png" />
+      
+        <file href="scormcontent/assets/competenciasunion.jpg" />
+      
         <file href="scormdriver/auto-scripts/CourseExit.js" />
-      
-        <file href="scormcontent/assets/mountains.jpg" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
       
         <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
       
         <file href="scormcontent/assets/arreglo-de-ruedas-dentadas-de-colores-endecha-plana.jpg" />
       
-        <file href="scormcontent/assets/Grafica_02_3.png" />
-      
-        <file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
-      
-        <file href="scormcontent/assets/08 Trophy.gif" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
-      
-        <file href="scormcontent/assets/Grafica_02_1.png" />
-      
-        <file href="scormcontent/lib/fonts/5o5OJ-umV3zSLype-SourceSansPro-Bold.woff" />
-      
-        <file href="scormcontent/assets/numeros123.png" />
-      
         <file href="scormcontent/assets/marco-de-vista-superior-de-graficos-de-economia.jpg" />
-      
-        <file href="scormcontent/lib/fonts/Lato2-Light.woff" />
-      
-        <file href="scormcontent/assets/20943399.jpg" />
-      
-        <file href="scormcontent/lib/player-interface.js" />
-      
-        <file href="scormcontent/assets/hand-fill-exam-carbon-paper-computer-sheet-pencil.jpg" />
-      
-        <file href="scormcontent/assets/side-view-business-people-walking-upstairs.jpg" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
-      
-        <file href="scormcontent/assets/close-up-woman-writing-with-pencil.jpg" />
-      
-        <file href="scormcontent/assets/GráficoU2.jpg" />
-      
-        <file href="scormcontent/assets/competenciasunion.jpg" />
-      
-        <file href="scormcontent/assets/clipboard_illustration.png" />
-      
-        <file href="scormcontent/assets/escalera.jpg" />
-      
-        <file href="scormcontent/assets/realdecreto.jpg" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
-      
-        <file href="scormcontent/assets/8287.jpg" />
-      
-        <file href="scormcontent/assets/asian-student-online-learning-education-home.jpg" />
-      
-        <file href="scormcontent/assets/assortment-blank-wooden-cubes.jpg" />
-      
-        <file href="scormcontent/assets/6857256.jpg" />
       
         <file href="scormcontent/assets/3543046.jpg" />
       
-        <file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+        <file href="scormcontent/assets/woman-wheelchair-coworkers.jpg" />
       
-        <file href="scormcontent/assets/numeros1234.png" />
+        <file href="scormcontent/assets/numeros123.png" />
       
-        <file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
+        <file href="scormcontent/assets/hand-fill-exam-carbon-paper-computer-sheet-pencil.jpg" />
       
-        <file href="scormcontent/lib/fonts/6YddIWWnSkXZMvR9-SourceSansPro-Regular.woff" />
+        <file href="scormdriver/AICCComm.html" />
       
-        <file href="scormcontent/lib/fonts/CM7-21lr6oz-N8ix-SourceSansPro-Italic.woff" />
+        <file href="scormcontent/assets/close-up-woman-writing-with-pencil.jpg" />
       
-        <file href="scormcontent/assets/Grafica_02_5.png" />
+        <file href="scormcontent/assets/Grafica_02_1.png" />
       
         <file href="scormcontent/assets/woman-writing-sticky-notes-office-window.jpg" />
       
-        <file href="scormcontent/assets/11_food.jpg" />
+        <file href="scormcontent/assets/side-view-business-people-walking-upstairs.jpg" />
       
-        <file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+        <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
       
         <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
       
-        <file href="scormcontent/assets/woman-wheelchair-coworkers.jpg" />
+        <file href="scormcontent/assets/8287.jpg" />
+      
+        <file href="scormcontent/lib/fonts/6YddIWWnSkXZMvR9-SourceSansPro-Regular.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
+      
+        <file href="scormcontent/lib/fonts/CM7-21lr6oz-N8ix-SourceSansPro-Italic.woff" />
+      
+        <file href="scormcontent/lib/fonts/5o5OJ-umV3zSLype-SourceSansPro-Bold.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
+      
+        <file href="scormcontent/assets/Grafica_02_5.png" />
+      
+        <file href="scormcontent/assets/GráficoU2.jpg" />
+      
+        <file href="scormcontent/assets/08 Trophy.gif" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
+      
+        <file href="scormcontent/assets/clipboard_illustration.png" />
+      
+        <file href="scormcontent/assets/numeros1234.png" />
+      
+        <file href="scormcontent/assets/asian-student-online-learning-education-home.jpg" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
+      
+        <file href="scormcontent/assets/realdecreto.jpg" />
+      
+        <file href="scormcontent/assets/20943399.jpg" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
       
         <file href="scormcontent/assets/w5ZuNcgDlaMCRxFq/analytics-frame.html" />
       
