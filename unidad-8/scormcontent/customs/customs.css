@@ -22,9 +22,6 @@ body .brand--ui * {
   color: #0b4c1a;
 }
 
-button {
-  border-radius: 5%;
-}
 .block-process-carousel .block-process-card__start-btn,
 button.continue-btn.brand--ui {
   border-radius: 10px;
@@ -71,23 +68,24 @@ color: var(--white)
   background-blend-mode: multiply;
   position: relative;
 }
-
+ 
 .cover__header-content::before {
     content: "";
     background-image: url(logo.svg);
+    width: 111px;
     height: 75px;
-    width: 100px;
     position: absolute;
     top: 1rem;
     left: calc(50% - 50px);
     background-repeat: no-repeat;
+    background-position: center center;    background-size: contain;
 }
 @media (min-width: 477px) {
   .cover__header-content::before {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 147px;
     right: 4rem;
-    bottom: 0;
+    bottom: 2rem;
 top: initial!important;
 left:initial!important;
   }
@@ -107,6 +105,7 @@ left:initial!important;
 }
 */
 .cover__header-content-info::before {
+    /* ▼ EDITAR POR UNIDAD (1/4): subtítulo del curso. No borres las comillas ni añadas espacios. ▼ */
     content: "Mooc Competencias Básicas del personal de la Junta de Andalucía";
     display: block;
     font-size: 2rem;
@@ -116,6 +115,7 @@ left:initial!important;
 }
 
 .cover__header-content-info h1::before {
+  /* ▼ EDITAR POR UNIDAD (2/4): cambia SOLO el número de unidad. ▼ */
   content: "Unidad 8";
   display: block;
   width: fit-content;
@@ -430,6 +430,10 @@ left:initial!important;
 
 /* Note */
 
+svg[aria-hidden="true"] {
+    pointer-events: none;
+}
+
 .block-statement--note .block-statement__quote {
   padding: 0 !important;
   color: var(--primary-color) !important;
@@ -496,7 +500,12 @@ left:initial!important;
   font-family: var(--primary-font);
   font-weight: bold !important;
   margin-left: 2rem !important;
-  flex: 0 auto !important;
+  /* El runtime pone flex:1, width:calc(100%) y text-align:center, lo que separa
+     el texto del icono. Lo ceñimos al ancho del texto y lo pegamos al icono
+     (mismo criterio que .block-statement__note-card). */
+  flex: 0 0 auto !important;
+  width: auto !important;
+  text-align: left !important;
   color: var(--primary-color) !important;
 }
 
@@ -809,4 +818,95 @@ border-color: rgb(65, 64, 64)!important;
     border-color: rgb(65, 64, 64)!important;
   }
 }
+/*Mejora visual de Acordeones- ESQUINAS REDONDEADAS*/
 
+.blocks-accordion__item:first-child .blocks-accordion__header.brand--border {
+    border-top-left-radius:0.3rem;
+}
+
+.blocks-accordion__content blocks-accordion__content--will-enter brand--border blocks-accordion__content--visible{
+    border-bottom-left-radius:0.3rem;
+}
+
+h2 .blocks-accordion__header:last-of-type.brand--border {
+    border-bottom-left-radius:0rem;
+
+}
+
+.blocks-accordion__item:last-of-type .brand--border{
+    border-bottom-left-radius:0.3rem;
+}
+
+/*Mejoras visuales de TABS*/
+
+.blocks-tabs__header-item {
+    align-items: center;
+    background: var(--color-tabs-inactive-background);
+    border-block-end:1px solid var(--color-tabs-border-divider);border-block-start: 1px solid var(--color-tabs-border);
+    border-inline-end:1px solid var(--color-tabs-border-divider);color: var(--color-text,#000);
+    cursor: pointer;
+    display: flex;
+    flex: 0 1 100%;
+    font-family: var(--font-family-head);
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: .12em;
+    line-height: 1.66667;
+    min-height: 8rem;
+    min-width: 40%;
+    outline-offset: -.3rem;
+    overflow-wrap: break-word;
+    padding-block:1rem;padding-inline:.5rem;text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background .3s,border-bottom-color .3s;
+    border-top-left-radius:0.4rem;
+    border-top-right-radius:0.4rem;
+
+}
+
+.blocks-tabs__content {
+    border: 1px solid var(--color-tabs-border);
+    border-block-start:none;color: var(--color-text,#000);
+    font-weight: 300;
+    border-bottom-left-radius:0.4rem;
+    border-bottom-right-radius:0.4rem;
+}
+
+.blocks-tabs__header-item--active:first-child {
+    background: #0000;
+    border-bottom-color: #0000;
+    border-inline-start:1px solid var(--color-tabs-border-divider);cursor: default;
+    border-top-right-radius:0rem;
+}
+.blocks-tabs__header-item--active:last-child {
+    background: #0000;
+    border-bottom-color: #0000;
+    border-inline-start:1px solid var(--color-tabs-border-divider);cursor: default;
+    border-top-left-radius:0rem;
+}
+
+.blocks-tabs__header-item--active:first-child {
+    background: #0000;
+    border-bottom-color: #0000;
+    border-inline-start:1px solid var(--color-tabs-border-divider);cursor: default;
+    border-top-right-radius:0rem;
+}
+
+.blocks-tabs__header-item--after-active {
+    border-inline-start:none;
+    border-top-left-radius:0rem;
+}
+
+/*Mejoras visuales SLIDER*/
+.block-process-card {
+    --box-shadow-step: none;
+    --color-step-bg: var(--color-theme-decorative,var(--color-theme));
+    --color-step-text: var(--color-theme-contrast,var(--arc-color-mono-white));
+    display: flex;
+    flex-direction: column;
+    padding-block:var(--arc-space-4);padding-inline: var(--arc-space-4);
+    width: 100%;
+    border-radius:0.5rem;
+}

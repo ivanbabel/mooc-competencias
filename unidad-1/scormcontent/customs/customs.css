@@ -78,7 +78,7 @@ color: var(--white)
     top: 1rem;
     left: calc(50% - 50px);
     background-repeat: no-repeat;
-    background-position: center center;    background-size: cover;
+    background-position: center center;    background-size: contain;
 }
 @media (min-width: 477px) {
   .cover__header-content::before {
@@ -105,6 +105,7 @@ left:initial!important;
 }
 */
 .cover__header-content-info::before {
+    /* ▼ EDITAR POR UNIDAD (1/4): subtítulo del curso. No borres las comillas ni añadas espacios. ▼ */
     content: "Mooc Competencias Básicas del personal de la Junta de Andalucía";
     display: block;
     font-size: 2rem;
@@ -114,6 +115,7 @@ left:initial!important;
 }
 
 .cover__header-content-info h1::before {
+  /* ▼ EDITAR POR UNIDAD (2/4): cambia SOLO el número de unidad. ▼ */
   content: "Unidad 1";
   display: block;
   width: fit-content;
@@ -498,7 +500,12 @@ svg[aria-hidden="true"] {
   font-family: var(--primary-font);
   font-weight: bold !important;
   margin-left: 2rem !important;
-  flex: 0 auto !important;
+  /* El runtime pone flex:1, width:calc(100%) y text-align:center, lo que separa
+     el texto del icono. Lo ceñimos al ancho del texto y lo pegamos al icono
+     (mismo criterio que .block-statement__note-card). */
+  flex: 0 0 auto !important;
+  width: auto !important;
+  text-align: left !important;
   color: var(--primary-color) !important;
 }
 
