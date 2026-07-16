@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest
-  identifier="nDjQovN_oIETzQ9VyXzVDx_bBroYsNhHB3sM0ibK"
+  identifier="nDjQovN_oIETzQ9VyXzVDx_bBroYsNhHeDNZw4yp"
   version="1"
   xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
   xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
@@ -25,23 +25,31 @@
   <resources>
     <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
       
-        <file href="scormcontent/lib/rise/95da918f.js" />
+        <file href="scormcontent/lib/mondrian/entry.js" />
       
-        <file href="scormcontent/lib/rise/acb578a7.js" />
+        <file href="scormcontent/lib/mondrian/dec9fc60.js" />
+      
+        <file href="scormcontent/lib/mondrian/beb179ad.js" />
+      
+        <file href="scormcontent/lib/mondrian/069aad0d.js" />
+      
+        <file href="scormcontent/lib/mondrian/3868877e.js" />
+      
+        <file href="scormcontent/lib/mondrian/5d56aa22.js" />
       
         <file href="scormcontent/lib/sandbox/sandbox.html" />
       
-        <file href="scormcontent/lib/learn_dist/entry.js" />
-      
-        <file href="scormcontent/lib/mondrian/entry.js" />
-      
         <file href="scormcontent/lib/sandbox/c77685df.js" />
-      
-        <file href="scormcontent/lib/rise/fd3dd74a.css" />
       
         <file href="scormcontent/lib/sandbox/4adfab46.css" />
       
-        <file href="scormcontent/lib/mondrian/dec9fc60.js" />
+        <file href="scormcontent/lib/rise/9a94aafd.js" />
+      
+        <file href="scormcontent/lib/rise/acb578a7.js" />
+      
+        <file href="scormcontent/lib/rise/fd3dd74a.css" />
+      
+        <file href="scormcontent/lib/learn_dist/entry.js" />
       
         <file href="scormcontent/lib/learn_dist/9b1f8619.js" />
       
@@ -49,19 +57,11 @@
       
         <file href="scormcontent/lib/learn_dist/a9b6c0d9.js" />
       
-        <file href="scormcontent/lib/mondrian/beb179ad.js" />
+        <file href="scormcontent/lib/rise/24426399.js" />
       
-        <file href="scormcontent/lib/mondrian/2eb2e328.js" />
+        <file href="scormcontent/lib/rise/39ffa859.css" />
       
-        <file href="scormcontent/lib/mondrian/3868877e.js" />
-      
-        <file href="scormcontent/lib/mondrian/5d56aa22.js" />
-      
-        <file href="scormcontent/lib/rise/e44cce70.js" />
-      
-        <file href="scormcontent/lib/rise/1fc09028.css" />
-      
-        <file href="scormcontent/lib/rise/3c57eb01.js" />
+        <file href="scormcontent/lib/rise/f30eff31.js" />
       
         <file href="scormcontent/lib/rise/9aede266.ttf" />
       
@@ -105,79 +105,79 @@
       
         <file href="scormdriver/driverOptions.js" />
       
+        <file href="scormdriver/indexAPI.html" />
+      
         <file href="scormdriver/goodbye.html" />
       
-        <file href="scormcontent/assets/UD8_004.png" />
+        <file href="scormcontent/assets/teoriaaccion.jpg" />
       
         <file href="scormcontent/assets/assortment-blank-wooden-cubes.jpg" />
       
-        <file href="scormcontent/assets/teoriaaccion.jpg" />
+        <file href="scormcontent/assets/UD8_004.png" />
       
         <file href="scormcontent/assets/escalera.jpg" />
       
         <file href="scormcontent/index.html" />
       
-        <file href="scormdriver/indexAPI.html" />
+        <file href="scormdriver/lib/dist/5306ddc2.js" />
       
         <file href="scormcontent/lib/dist/c45a9871.js" />
       
-        <file href="scormdriver/lib/dist/5306ddc2.js" />
-      
-        <file href="scormdriver/scormdriver.js" />
-      
         <file href="scormdriver/lms-interface.js" />
-      
-        <file href="scormdriver/browsersniff.js" />
-      
-        <file href="scormcontent/assets/002_UD9.png" />
-      
-        <file href="scormcontent/assets/08 Trophy.gif" />
-      
-        <file href="scormcontent/lib/fonts/CM7-21lr6oz-N8ix-SourceSansPro-Italic.woff" />
       
         <file href="scormcontent/assets/customer-service-executive-working-office.jpg" />
       
-        <file href="scormcontent/assets/person-is-working-laptop-with-checklist-it.jpg" />
-      
-        <file href="scormcontent/assets/numeros1234.png" />
+        <file href="scormdriver/AICCComm.html" />
       
         <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
       
-        <file href="scormdriver/AICCComm.html" />
+        <file href="scormcontent/assets/numeros1234.png" />
       
-        <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+        <file href="scormdriver/browsersniff.js" />
       
-        <file href="scormdriver/blank.html" />
+        <file href="scormdriver/scormdriver.js" />
       
-        <file href="scormcontent/lib/fonts/5o5OJ-umV3zSLype-SourceSansPro-Bold.woff" />
+        <file href="scormcontent/assets/MOOC - Competencias Básicas Para el Personal de la Junta de Andalucía.png" />
       
-        <file href="scormcontent/lib/fonts/Lato2-Black.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
-      
-        <file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+        <file href="scormcontent/assets/person-is-working-laptop-with-checklist-it.jpg" />
       
         <file href="scormcontent/lib/fonts/6YddIWWnSkXZMvR9-SourceSansPro-Regular.woff" />
       
-        <file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
+        <file href="scormcontent/lib/fonts/Montserrat-Bold.woff" />
       
-        <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+        <file href="scormcontent/lib/fonts/CM7-21lr6oz-N8ix-SourceSansPro-Italic.woff" />
+      
+        <file href="scormcontent/assets/08 Trophy.gif" />
+      
+        <file href="scormdriver/blank.html" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Black.woff" />
+      
+        <file href="scormcontent/lib/fonts/5o5OJ-umV3zSLype-SourceSansPro-Bold.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Italic.woff" />
+      
+        <file href="scormdriver/auto-scripts/AutoBookmark.js" />
       
         <file href="scormdriver/auto-scripts/CourseExit.js" />
       
+        <file href="scormcontent/lib/fonts/Montserrat-SemiBold.woff" />
+      
         <file href="scormcontent/lib/fonts/Lato2-Bold.woff" />
       
+        <file href="scormcontent/lib/fonts/Montserrat-Light.woff" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Regular.woff" />
+      
         <file href="scormcontent/lib/fonts/Lato2-Light.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Medium.woff" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Black.woff" />
+      
+        <file href="scormcontent/lib/fonts/Montserrat-Regular.woff" />
+      
+        <file href="scormcontent/lib/fonts/Lato2-Italic.woff" />
       
         <file href="scormcontent/runtime-data.js" />
       

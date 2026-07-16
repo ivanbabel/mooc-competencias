@@ -17,13 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //  - message: mensaje de finalización al superar (≥80 %).
   //  - Si hay más (o menos) autoevaluaciones, duplica/elimina bloques manteniendo las comas.
   //  - Si el curso NO tiene autoevaluaciones, deja el array vacío: const evals = [];
-  const evals = [
-    {
-      description: "Autoevaluación 2",
-      id: "5ZvvVcHPKY3VtLw7yJxdDwX0K-7vuN2M",
-      message: "Enhorabuena, has demostrado tu aprendizaje sobre los comportamientos asociados de cooperación y colaboración. Continúa así. Ánimo.",
-    },
-  ];
+  const evals = [];
   // ▲▲▲ FIN ZONA EDITABLE POR UNIDAD ▲▲▲
 
   let currentLessonId = null; // Se actualizará dinámicamente
