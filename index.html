@@ -17,10 +17,17 @@
   .intro{color:var(--gris);margin:0}
   .grid{display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-top:1.5rem}
   .card{border:1px solid var(--borde);border-radius:12px;padding:1.2rem;background:var(--suave);display:flex;flex-direction:column;gap:.4rem}
-  .card .num{margin:0;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--verde2);font-weight:700}
-  .card h2{margin:0 0 .8rem;font-size:1.05rem;line-height:1.3;color:var(--verde);flex:1}
+  .card .num,.pod .num{margin:0;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--verde2);font-weight:700}
+  .card h3{margin:0 0 .8rem;font-size:1.05rem;line-height:1.3;color:var(--verde);flex:1}
   .btn{align-self:flex-start;display:inline-block;text-decoration:none;font-size:.85rem;font-weight:600;padding:.45rem .9rem;border-radius:999px;background:var(--verde);color:#fff;border:1px solid var(--verde)}
   .btn:hover{background:var(--verde2)}
+  h2{font-size:clamp(1.1rem,2.5vw,1.4rem);color:var(--verde);margin:0 0 .4rem}
+  section+section{margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--borde)}
+  .pod{border:1px solid var(--borde);border-radius:12px;padding:1.2rem;background:var(--suave);display:flex;flex-direction:column;gap:.6rem}
+  .pod h3{margin:0;font-size:1rem;line-height:1.3;color:var(--verde);flex:1}
+  .pod-audio{width:100%;height:40px}
+  .pod-doc{align-self:flex-start;font-size:.85rem;font-weight:600;color:var(--verde2)}
+  .pod-pend{margin:0;font-size:.85rem;color:var(--gris);font-style:italic}
 </style>
 </head>
 <body>
@@ -32,54 +39,58 @@
   </div>
 </header>
 <main>
-  <p class="intro">Curso en abierto sobre competencias profesionales. Selecciona una unidad para abrirla en el navegador.</p>
-  <div class="grid">
+  <section class="unidades">
+    <h2>Unidades</h2>
+    <p class="intro">Curso en abierto sobre competencias profesionales. Selecciona una unidad para abrirla en el navegador.</p>
+    <div class="grid">
     <article class="card">
       <p class="num">Unidad 1</p>
-      <h2>¿Qué son las competencias profesionales? Técnicas de identificación</h2>
+      <h3>¿Qué son las competencias profesionales? Técnicas de identificación</h3>
       <a class="btn" href="unidad-1/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 2</p>
-      <h2>El modelo de gestión de recursos humanos por competencias en la Ley 5/2023 y el Decreto 91/2026</h2>
+      <h3>El modelo de gestión de recursos humanos por competencias en la Ley 5/2023 y el Decreto 91/2026</h3>
       <a class="btn" href="unidad-2/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 3</p>
-      <h2>Competencia Básica 1ª: Compromiso con el servicio público y la organización</h2>
+      <h3>Competencia Básica 1ª: Compromiso con el servicio público y la organización</h3>
       <a class="btn" href="unidad-3/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 4</p>
-      <h2>Competencia Básica 2ª: Orientación a la ciudadanía</h2>
+      <h3>Competencia Básica 2ª: Orientación a la ciudadanía</h3>
       <a class="btn" href="unidad-4/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 5</p>
-      <h2>Competencia Básica 3ª: Mejora Continua</h2>
+      <h3>Competencia Básica 3ª: Mejora Continua</h3>
       <a class="btn" href="unidad-5/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 6</p>
-      <h2>Competencia Básica 4ª: El aprendizaje permanente</h2>
+      <h3>Competencia Básica 4ª: El aprendizaje permanente</h3>
       <a class="btn" href="unidad-6/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 7</p>
-      <h2>Competencia Básica 5ª: Cooperación y Colaboración</h2>
+      <h3>Competencia Básica 5ª: Cooperación y Colaboración</h3>
       <a class="btn" href="unidad-7/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 8</p>
-      <h2>Competencia Básica 6ª: Flexibilidad y Adaptabilidad al cambio</h2>
+      <h3>Competencia Básica 6ª: Flexibilidad y Adaptabilidad al cambio</h3>
       <a class="btn" href="unidad-8/scormcontent/index.html">Abrir unidad</a>
     </article>
     <article class="card">
       <p class="num">Unidad 9</p>
-      <h2>Cómo mejorar mis competencias básicas: la evaluación de las competencias y el plan de acción</h2>
+      <h3>Cómo mejorar mis competencias básicas: la evaluación de las competencias y el plan de acción</h3>
       <a class="btn" href="unidad-9/scormcontent/index.html">Abrir unidad</a>
     </article>
-  </div>
+    </div>
+  </section>
+
 </main>
 </body>
 </html>
